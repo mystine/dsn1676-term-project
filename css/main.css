@@ -63,6 +63,39 @@ a:active {
     background: linear-gradient(to bottom, red, black);
 }
 
+.little-hand {
+    width: 14px;
+    position: absolute;
+    left: calc(50% - 7px);
+    top: 110px;
+    animation: clock 5s linear;
+    -webkit-animation: clock 5s linear;
+    
+}
+
+.long-hand {
+    width: 14px;
+    position: absolute;
+    left: calc(50% - 7px);
+    top: 110px;
+
+}
+
+.big-ben {
+    width: 275px;
+    position: absolute;
+}
+
+@keyframes clock {
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 @media only screen and (min-width: 20em) {
     
   
