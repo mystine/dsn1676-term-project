@@ -44,16 +44,16 @@ a:focus,
 a:active {
     color: white;
     text-decoration: none;
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 .attract,
 .attract:link,
 .attract:visited {
     background-color: black;
-    padding: 0.5em;
+    padding: 1.5em;
     text-decoration: none;
-    transition: all 1000ms ease-in-out;
+    
 }
 
 .attract:hover,
