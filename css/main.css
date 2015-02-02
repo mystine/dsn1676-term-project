@@ -27,6 +27,10 @@ body {
     background-color: red;
 }
 
+.center {
+    text-align: center;
+}
+
 a,
 a:link,
 a:visited {
