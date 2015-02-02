@@ -68,8 +68,8 @@ a:active {
     position: absolute;
     left: calc(50% - 7px);
     top: 110px;
-    animation: clock 5s linear;
-    -webkit-animation: clock 5s linear;
+    transition: 6s;
+    transform-origin: center bottom;
     
 }
 
@@ -78,7 +78,16 @@ a:active {
     position: absolute;
     left: calc(50% - 7px);
     top: 110px;
+    transition: 6s;
+    transform-origin: center bottom;
+}
 
+.big-ben:target .hand-hour {
+    transform: rotate(360deg);
+}
+
+.big-ben:target .hand-minute {
+    transform: rotate(4340deg);
 }
 
 .big-ben {
@@ -86,15 +95,7 @@ a:active {
     position: absolute;
 }
 
-@keyframes clock {
-    from {
-        transform: rotate(0deg);
-    }
-    
-    to {
-        transform: rotate(360deg);
-    }
-}
+
 
 @media only screen and (min-width: 20em) {
     
