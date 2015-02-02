@@ -70,27 +70,25 @@ a:active {
 
 .big-ben {
     width: 275px;
-    position: absolute;
 }
 
 .little-hand {
     width: 14px;
     position: absolute;
-    left: calc(50% - 7px);
-    top: 110px;  
+    left: calc(70% - 7px);
+    top: 280px;  
 }
 
 .long-hand {
     width: 14px;
     position: absolute;
-    left: calc(50% - 7px);
-    top: 110px;
+    left: calc(69.5% - 7px);
+    top: 283px;
 }
 
 .double-decker {
     width: 275px;
     float: right;
-    position: absolute;
 }
 
 .bus {
@@ -100,15 +98,15 @@ a:active {
 .wheel-left {
     width: 45px;
     position: absolute;
-    left: calc(25% - 7px);
-    top: 150px;
+    left: calc(55% - 7px);
+    top: 620px;
 }
 
 .wheel-right {
     width: 45px;
     position: absolute;
-    left: calc(65% - 7px);
-    top: 150px;
+    left: calc(80% - 7px);
+    top: 620px;
 }
 
 .london-eye {
@@ -120,12 +118,12 @@ a:active {
     left: calc(67% - 7px);
     top: 215px;
 }
- 
-.vectors {
-    position: absolute;
-     
-}
 
+.floatright {
+    float: right;
+    margin: 0 0 10px 10px;
+    clear: right;
+}
 @media only screen and (min-width: 20em) {
     
   
