@@ -63,6 +63,11 @@ a:active {
     background: linear-gradient(to bottom, red, black);
 }
 
+.big-ben {
+    width: 275px;
+    position: absolute;
+}
+
 .little-hand {
     width: 14px;
     position: absolute;
@@ -77,10 +82,7 @@ a:active {
     top: 110px;
 }
 
-.big-ben {
-    width: 275px;
-    position: absolute;
-}
+
 
 .double-decker {
     width: 275px;
@@ -102,17 +104,18 @@ a:active {
     top: 150px;
 }
 
-.ferris-wheel {
+.london-eye {
     width: 275px;
     float: right;
     position: relative;
+    float: left;
 }
 
 .ferris-chair {
     width: 45px;
     position: absolute;
     left: calc(67% - 7px);
-    top: 435px;
+    top: 215px;
 }
     
 @media only screen and (min-width: 20em) {
