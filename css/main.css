@@ -31,7 +31,7 @@ a,
 a:link,
 a:visited {
     color: white;
-    transition: color 1000ms linear;
+    transition: all 500ms ease-in-out;
     text-decoration: none;
 }
 
@@ -40,6 +40,7 @@ a:focus,
 a:active {
     color: black;
     text-decoration: none;
+    transform: scale(1.1);
 }
 
 .attract,
