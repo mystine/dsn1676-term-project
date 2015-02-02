@@ -31,7 +31,7 @@ a,
 a:link,
 a:visited {
     color: white;
-    transition: all 500ms ease-in-out;
+    transition: all 2000ms ease-in-out;
     text-decoration: none;
 }
 
