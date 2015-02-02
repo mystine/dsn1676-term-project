@@ -67,10 +67,7 @@ a:active {
     width: 14px;
     position: absolute;
     left: calc(50% - 7px);
-    top: 110px;
-    transition: 6s;
-    transform-origin: center bottom;
-    
+    top: 110px;  
 }
 
 .long-hand {
@@ -78,16 +75,6 @@ a:active {
     position: absolute;
     left: calc(50% - 7px);
     top: 110px;
-    transition: 6s;
-    transform-origin: center bottom;
-}
-
-.big-ben:target .hand-hour {
-    transform: rotate(360deg);
-}
-
-.big-ben:target .hand-minute {
-    transform: rotate(4340deg);
 }
 
 .big-ben {
@@ -95,8 +82,20 @@ a:active {
     position: absolute;
 }
 
+.double-decker {
+    width: 275px;
+    float: right;
+}
 
+.wheel-left {
+    width: 45px;
+    float: left;
+}
 
+.wheel-right {
+    width: 45px;
+    float: left;
+}
 @media only screen and (min-width: 20em) {
     
   
