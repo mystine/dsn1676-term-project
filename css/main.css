@@ -31,12 +31,31 @@ a,
 a:link,
 a:visited {
     color: white;
+    transition: color 1000ms linear;
+    text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
     color: black;
+    text-decoration: none;
+}
+
+.attract,
+.attract:link,
+.attract:visited {
+    background-color: black;
+    padding: 0.5em;
+    text-decoration: none;
+    transition: all 500ms linear;
+}
+
+.attract:hover,
+.attract:focus,
+.attract:active {
+    color: white;
+    background: linear-gradient(to bottom, red, black);
 }
 
 @media only screen and (min-width: 20em) {
