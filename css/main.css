@@ -63,6 +63,10 @@ a:active {
     background: linear-gradient(to bottom, red, black);
 }
 
+.vectors {
+    display: block;
+    position: relative;
+}
 .big-ben {
     width: 275px;
     position: absolute;
