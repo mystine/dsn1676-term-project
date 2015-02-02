@@ -93,6 +93,10 @@ a:active {
     position: absolute;
 }
 
+.bus {
+    position: relative
+}
+
 .wheel-left {
     width: 45px;
     position: absolute;
@@ -109,7 +113,6 @@ a:active {
 
 .london-eye {
     width: 275px;
-    
 }
 
 .ferris-chair {
@@ -120,8 +123,7 @@ a:active {
  
 .vectors {
     position: absolute;
-    margin-left: auto;
-    margin-right: auto; 
+     
 }
 
 @media only screen and (min-width: 20em) {
