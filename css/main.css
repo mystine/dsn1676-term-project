@@ -101,6 +101,20 @@ a:active {
     left: calc(65% - 7px);
     top: 150px;
 }
+
+.ferris-wheel {
+    width: 275px;
+    float: right;
+    position: relative;
+}
+
+.ferris-chair {
+    width: 45px;
+    position: absolute;
+    left: calc(67% - 7px);
+    top: 435px;
+}
+    
 @media only screen and (min-width: 20em) {
     
   
