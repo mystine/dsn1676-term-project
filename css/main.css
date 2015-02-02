@@ -38,7 +38,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-    color: black;
+    color: white;
     text-decoration: none;
     transform: scale(1.1);
 }
