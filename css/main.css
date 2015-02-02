@@ -85,16 +85,21 @@ a:active {
 .double-decker {
     width: 275px;
     float: right;
+    position: relative;
 }
 
 .wheel-left {
     width: 45px;
-    float: left;
+    position: absolute;
+    left: calc(25% - 7px);
+    top: 150px;
 }
 
 .wheel-right {
     width: 45px;
-    float: left;
+    position: absolute;
+    left: calc(65% - 7px);
+    top: 150px;
 }
 @media only screen and (min-width: 20em) {
     
