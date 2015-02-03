@@ -76,14 +76,14 @@ a:active {
     width: 14px;
     position: absolute;
     left: calc(70% - 7px);
-    top: 280px;  
+    top: 356px;  
 }
 
 .long-hand {
     width: 14px;
     position: absolute;
     left: calc(69.5% - 7px);
-    top: 283px;
+    top: 355px;
 }
 
 .double-decker {
@@ -99,14 +99,14 @@ a:active {
     width: 45px;
     position: absolute;
     left: calc(55% - 7px);
-    top: 620px;
+    top: 690px;
 }
 
 .wheel-right {
     width: 45px;
     position: absolute;
     left: calc(80% - 7px);
-    top: 620px;
+    top: 690px;
 }
 
 .london-eye {
