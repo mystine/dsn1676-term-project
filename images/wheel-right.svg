@@ -4,8 +4,10 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 144 144" enable-background="new 0 0 144 144" xml:space="preserve">
 <g>
-	<line fill="none" stroke="#4D4D4D" stroke-linecap="round" stroke-miterlimit="10" x1="51" y1="42" x2="102" y2="93.7"/>
-	<line fill="none" stroke="#B8B8B8" stroke-linecap="round" stroke-miterlimit="10" x1="102" y1="42" x2="51" y2="93.7"/>
-	<ellipse fill="none" stroke="#000000" stroke-miterlimit="10" cx="75.8" cy="67.5" rx="43.5" ry="34.5"/>
+	
+		<line fill="none" stroke="#4D4D4D" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="48.6" y1="42" x2="93" y2="93.7"/>
+	
+		<line fill="none" stroke="#B8B8B8" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="93" y1="42" x2="48.6" y2="93.7"/>
+	<ellipse fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" cx="70.1" cy="67.5" rx="37.9" ry="34.5"/>
 </g>
 </svg>
