@@ -45,8 +45,8 @@ a:focus,
 a:active {
     color: white;
     text-decoration: none;
-    transform: scale(1.5);
     -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .attract,
@@ -55,8 +55,8 @@ a:active {
     background-color: black;
     padding: 1.5em;
     text-decoration: none;
-    transition: all 1000ms linear;
     -webkit-transition: all 1000ms linear;
+    transition: all 1000ms linear;
 }
 
 .attract:hover,
@@ -103,8 +103,8 @@ a:active {
     position: absolute;
     left: calc(55% - 7px);
     top: 690px;
-    -webkit-animation: orbit 5s linear;
-    animation: orbit 5s linear;
+    -webkit-animation: orbit 5s linear infinite;
+    animation: orbit 5s linear infinite; 
 }
 
 .wheel-right {
@@ -112,8 +112,8 @@ a:active {
     position: absolute;
     left: calc(80% - 7px);
     top: 690px;
-    -webkit-animation: orbit 5s linear;
-    animation: orbit 5s linear;
+    -webkit-animation: orbit 5s linear infinite;
+    animation: orbit 5s linear infinite;
 }
 
 .london-eye {
@@ -127,16 +127,24 @@ a:active {
      
 }
 
+@-webkit-keyframes orbit {
+    
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);  
+    }
+    
 @keyframes orbit {
     
     from {
         transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
     }
     
     to {
-        transform: rotate(360deg);
-        -webkit- transform: rotate(360deg);
+        transform: rotate(360deg);  
     }
    
 }
