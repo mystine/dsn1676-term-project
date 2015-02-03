@@ -100,6 +100,8 @@ a:active {
     position: absolute;
     left: calc(55% - 7px);
     top: 690px;
+    -webkit-animation: orbit 5s linear;
+    animation: orbit 5s linear;
 }
 
 .wheel-right {
@@ -107,6 +109,8 @@ a:active {
     position: absolute;
     left: calc(80% - 7px);
     top: 690px;
+    -webkit-animation: orbit 5s linear;
+    animation: orbit 5s linear;
 }
 
 .london-eye {
@@ -117,6 +121,19 @@ a:active {
     width: 45px;
     left: calc(67% - 7px);
     top: 215px;
+     
+}
+
+@keyframes orbit {
+    
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360);
+    }
+   
 }
 
 .floatright {
