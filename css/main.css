@@ -36,6 +36,7 @@ a:link,
 a:visited {
     color: white;
     transition: all 2000ms ease-in-out;
+    -webkit-transition: all 2000ms ease-in-out;
     text-decoration: none;
 }
 
@@ -45,6 +46,7 @@ a:active {
     color: white;
     text-decoration: none;
     transform: scale(1.5);
+    -webkit-transform: scale(1.5);
 }
 
 .attract,
@@ -54,6 +56,7 @@ a:active {
     padding: 1.5em;
     text-decoration: none;
     transition: all 1000ms linear;
+    -webkit-transition: all 1000ms linear;
 }
 
 .attract:hover,
@@ -128,10 +131,12 @@ a:active {
     
     from {
         transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
     
     to {
-        transform: rotate(360);
+        transform: rotate(360deg);
+        -webkit- transform: rotate(360deg);
     }
    
 }
