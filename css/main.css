@@ -73,6 +73,7 @@ a:active {
 
 .big-ben {
     width: 275px;
+    margin: 0 auto;
 }
 
 .little-hand {
@@ -91,7 +92,7 @@ a:active {
 
 .double-decker {
     width: 275px;
-    float: right;
+    margin: 0 auto;
 }
 
 .bus {
@@ -100,16 +101,12 @@ a:active {
 
 .wheel-left {
     width: 45px;
-    position: absolute;
-    left: calc(55% - 7px);
-    top: 690px;
     -webkit-animation: orbit 5s linear infinite;
     animation: orbit 5s linear infinite; 
 }
 
 .wheel-right {
     width: 45px;
-    position: absolute;
     left: calc(80% - 7px);
     top: 690px;
     -webkit-animation: orbit 5s linear infinite;
@@ -118,6 +115,7 @@ a:active {
 
 .london-eye {
     width: 275px;
+    margin: 0 auto;
 }
 
 .ferris-chair {
