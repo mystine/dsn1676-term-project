@@ -87,6 +87,7 @@ body {
 
 .title:hover {
 	color: #191970;
+    transition
 }
 
 .wall-left {
