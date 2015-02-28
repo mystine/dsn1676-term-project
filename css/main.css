@@ -23,71 +23,102 @@ html {
   box-sizing: inherit;
 }
 
-body {
-    background-color: red;
+.banner {
+	padding-top: 56.25%;
+	overflow: hidden;
+
+	position: relative;
+
+	background-color: #8B0000;
+
+	-webkit-animation: sunset 8s linear;
+	animation: sunset 8s linear;
 }
 
-.center {
-    text-align: center;
+@-webkit-keyframes sunset {
+	0% 		{background-color: white;}
+	85%  	{background-color: #8B0000;}
+	100% 	{background-color: #8B0000;}
 }
 
-a,
-a:link,
-a:visited {
-    color: white;
-    transition: all 2000ms ease-in-out;
-    -webkit-transition: all 2000ms ease-in-out;
-    text-decoration: none;
+@keyframes sunset {
+	0% 		{background-color: white;}
+	85%  	{background-color: #8B0000;}
+	100% 	{background-color: #8B0000;}
 }
 
-a:hover,
-a:focus,
-a:active {
-    color: white;
-    text-decoration: none;
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+.banner-title {
+  	position: absolute;
+  	top: 0;
+  	width: 100%;
+  	color: white;	
+  	font-family: 'Century Gtohic', sans-serif;
+  	transform-origin: center center;
+	-webkit-animation: fadein-a 8s ease-in-out;
+	animation: fadein-a 8s ease-in-out;
 }
 
-.attract,
-.attract:link,
-.attract:visited {
-    background-color: black;
-    padding: 1.5em;
-    text-decoration: none;
-    -webkit-transition: all 1000ms linear;
-    transition: all 1000ms linear;
+@-webkit-keyframes fadein-a {
+	0% 		{opacity: 0;}
+	10% 	{opacity: 0;}
+	20% 	{opacity: 0;}
+	100%  	{opacity: 1;}
 }
 
-.attract:hover,
-.attract:focus,
-.attract:active {
-    color: white;
-    background: linear-gradient(to bottom, red, black);
+@-keyframes fadein-a {
+	0% 		{opacity: 0;}
+	10% 	{opacity: 0;}
+	20% 	{opacity: 0;}
+	100%  	{opacity: 1;}
 }
 
-.vectors {
-    display: block;
-    position: relative;
+.title {
+	display: block;
+	margin:  auto;
+	padding-top: 20%;
+  	color: white;	
+  	font-family: 'Century Gothic', sans-serif;
+  	font-size: 1.5rem;
+	letter-spacing: 0.25rem;
+  	text-align: center;
+	text-decoration: none;
+	transition: all 500ms linear;
 }
+
+.title:hover {
+	color: #191970;
+}
+
+.wall-left {
+	width: 75%;
+
+	position: absolute;
+	left: 0;
+	bottom:0;
+
+	opacity: 0;
+
+	-webkit-animation: slide-left 10s ease-in-out;
+	animation: slide-left 10s ease-in-out;
+}
+
+@-webkit-keyframes slide-left {
+	0% 		{transform: translateX(0px); opacity: 1;}
+	50%		{opacity: 1;}
+	100%  	{transform: translateX(-100vw); opacity: 0;}
+}
+
+@keyframes slide-left {
+	0% 		{transform: translateX(0px); opacity: 1;}
+	50%		{opacity: 1;}
+	100%  	{transform: translateX(-100vw); opacity: 0;}
+}
+
+
 
 .big-ben {
     width: 275px;
     margin: 0 auto;
-}
-
-.little-hand {
-    width: 14px;
-    position: absolute;
-    left: calc(70% - 7px);
-    top: 356px;  
-}
-
-.long-hand {
-    width: 14px;
-    position: absolute;
-    left: calc(69.5% - 7px);
-    top: 355px;
 }
 
 .double-decker {
@@ -121,8 +152,7 @@ a:active {
 .ferris-chair {
     width: 45px;
     left: calc(67% - 7px);
-    top: 215px;
-     
+    top: 215px;    
 }
 
 @-webkit-keyframes orbit {
@@ -157,19 +187,29 @@ a:active {
     background-color: blue;
 }
     
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 25em) {
     
-  
-
+    .title {
+		padding-top: 20%;
+		font-size: 4rem;
+	}
+    
 }
 
 @media only screen and (min-width: 40em) {
     
-  
+    .title {
+		padding-top: 20%;
+		font-size: 5rem;
+	}
+    
 }
 
 @media only screen and (min-width: 60em) {
- 
-
+    
+    .title {
+		padding-top: 20%;
+		font-size: 6rem;
+	}
     
 }
