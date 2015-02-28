@@ -133,10 +133,6 @@ body {
     margin: 0 auto;
 }
 
-.bus {
-    position: relative
-}
-
 .wheel-left {
     width: 45px;
     -webkit-animation: orbit 5s linear infinite;
@@ -154,12 +150,6 @@ body {
 .london-eye {
     width: 275px;
     margin: 0 auto;
-}
-
-.ferris-chair {
-    width: 45px;
-    left: calc(67% - 7px);
-    top: 215px;    
 }
 
 @-webkit-keyframes orbit {
