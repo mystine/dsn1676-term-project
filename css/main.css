@@ -160,7 +160,7 @@ body {
 }
 
 .london {
-    position: absolute;
+    position: fixed;
     display: block;
 }
 
@@ -171,26 +171,14 @@ body {
     animation:rotate 12s infinite linear;
 }
 
-@keyframes rotate {
- 
-  100% {
-    transform:rotate(-360deg);
-  }
-}
-
 @-webkit-keyframes rotate {
-  16.67% {
-  }
-  33.33%   { 
-  }
-  50%      {  
-  }
-  66.67%   { 
-  }
-  88.88%   { 
-  }
   100% {
     -webkit-transform:rotate(-360deg);
+  }
+}
+@keyframes rotate {
+  100% {
+    transform:rotate(-360deg);
   }
 }
 
