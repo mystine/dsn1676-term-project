@@ -101,7 +101,6 @@ body {
     font-family: 'Quicksand', sans-serif;
 	background-color: white;
 	transition: all 500ms linear;
-    font-size: .75rem;
 	color: #191970;
 	line-height: 1.75;
 	text-align: center;
@@ -160,7 +159,7 @@ body {
 }
 
 .london {
-    position: fixed;
+    position: absolute;
     display: block;
 }
 
