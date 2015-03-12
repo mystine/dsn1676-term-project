@@ -28,14 +28,10 @@ body {
     padding: 0;
 }
 
-.flex {
-    display: block;
-    width: 100$;
-}
-
 .banner {
+    padding-top: 56%;
 	overflow: hidden;
-	position: relative;
+	position: relat;
 	background-color: #8B0000;
 	-webkit-animation: sunset 8s linear;
 	animation: sunset 8s linear;
@@ -78,22 +74,49 @@ body {
 	100%  	{opacity: 1;}
 }
 
-.title {
+.banner-title-text {
 	display: block;
 	margin:  auto;
 	padding-top: 20%;
+
   	color: white;	
   	font-family: 'Quicksand', sans-serif;
   	font-size: 1.5rem;
 	letter-spacing: 0.25rem;
   	text-align: center;
 	text-decoration: none;
+
 	transition: all 500ms linear;
 }
 
-.title:hover {
-	color: #191970;
-    transition
+.banner-title-text:hover {
+	color: #ddb904;
+}
+
+.scroll 
+.scroll-text{
+	margin: .25em;
+	padding: 1em .75em;
+	position: absolute;
+	bottom: 2%;
+	right: 2%;
+
+	background-color: white;
+	border-radius: 50%;
+	transition: all 500ms linear;
+
+	color: #282830;
+	line-height: 2;
+	text-align: center;
+	text-decoration: none;
+}
+
+.scroll:hover 
+.scroll-text:hover {
+	background-color: #ddb904;
+
+	color: white;
+	text-decoration: none;
 }
 
 .wall-left {
@@ -105,8 +128,8 @@ body {
 
 	opacity: 0;
 
-	-webkit-animation: slide-left 2s ease-in-out;
-	animation: slide-left 2s ease-in-out;
+	-webkit-animation: slide-left 15s ease-in-out;
+	animation: slide-left 15s ease-in-out;
 }
 
 @-webkit-keyframes slide-left {
@@ -130,8 +153,8 @@ body {
 
 	opacity: 0;
 
-	-webkit-animation: slide-right 2s ease-in-out;
-	animation: slide-right 2s ease-in-out;
+	-webkit-animation: slide-right 15s ease-in-out;
+	animation: slide-right 15s ease-in-out;
 }
 
 @-webkit-keyframes slide-right {
