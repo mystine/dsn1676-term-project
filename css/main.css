@@ -28,7 +28,6 @@ body {
 }
 
 .banner {
-    margin-top: 4rem;
     padding-top: 100%;
 	overflow: hidden;
 	position: relative;
@@ -160,7 +159,10 @@ body {
 	100%  	{transform: translateX(100vw); opacity: 0;}
 }
 
-.clouds {
+.london {
+    position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 .first-cloud {
