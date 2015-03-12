@@ -160,11 +160,14 @@ body {
 	100%  	{transform: translateX(100vw); opacity: 0;}
 }
 
+.clouds {
+}
+
 .first-cloud {
     position: absolute;
     width: 40%;
-    top: 3%;
-    right: 10%;
+    top: 5%;
+    left: 75%;
     opacity: 1;
     -webkit-animation: first-cloud 200s linear infinite;
     animation: first-cloud 200s linear infinite;
@@ -184,7 +187,7 @@ body {
     position: absolute;
     width: 40%;
     top: 3%;
-    left: 15%;
+    left: 100%;
     opacity: .75;
     -webkit-animation: second-cloud 200s linear infinite;
     animation: second-cloud 200s linear infinite;
@@ -204,7 +207,7 @@ body {
     position: absolute;
     width: 10%;
     top: 10%;
-    right: 30%;
+    right: 50%;
     opacity: .75;
     -webkit-animation: third-cloud 400s linear infinite;
     animation: third-cloud 400s linear infinite;
@@ -224,7 +227,7 @@ body {
     position: absolute;
     width: 10%;
     top: 15%;
-    right: 45%;
+    right: 25%;
     opacity: .75;
     -webkit-animation: fourth-cloud 300s linear infinite;
     animation: fourth-cloud 300s linear infinite;
