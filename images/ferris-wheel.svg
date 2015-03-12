@@ -2,26 +2,26 @@
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="223 284 163 165" enable-background="new 223 284 163 165" xml:space="preserve">
+	 viewBox="25 172 263 275" enable-background="new 25 172 263 275" xml:space="preserve">
 <g>
-	<ellipse cx="305.6" cy="366.9" rx="68.5" ry="67.9"/>
-	<ellipse fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="305.4" cy="366.9" rx="62.9" ry="62.3"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="305.4" y1="304.6" x2="305.4" y2="429.1"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="242.5" y1="366.7" x2="368.3" y2="366.7"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="261" y1="410.9" x2="349.6" y2="322.3"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="349.8" y1="410.7" x2="261.2" y2="322.1"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="363.2" y1="391.4" x2="247.8" y2="341.8"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="247.4" y1="391.4" x2="362.8" y2="341.8"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="330.1" y1="423.9" x2="281.1" y2="309.4"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="280.3" y1="424.1" x2="329.5" y2="309.4"/>
-	<ellipse cx="305" cy="299.2" rx="4" ry="4.2"/>
-	<ellipse cx="305" cy="434.8" rx="4" ry="4.2"/>
-	<ellipse cx="374.3" cy="366.7" rx="4" ry="4.2"/>
-	<ellipse cx="237.7" cy="367.3" rx="4" ry="4.2"/>
-	<ellipse cx="354.2" cy="319.3" rx="4" ry="4.2"/>
-	<ellipse cx="354.2" cy="414.3" rx="4" ry="4.2"/>
-	<ellipse cx="258.4" cy="317.7" rx="4" ry="4.2"/>
-	<ellipse cx="257.4" cy="414.7" rx="4" ry="4.2"/>
-	<ellipse cx="305.2" cy="366.7" rx="2.2" ry="2.2"/>
+	<ellipse fill="#8B0000" cx="157.1" cy="309.6" rx="121" ry="120"/>
+	<ellipse fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="156.7" cy="309.6" rx="111.1" ry="110.1"/>
+	<line fill="none" stroke="#191970" stroke-miterlimit="10" x1="156.7" y1="199.5" x2="156.7" y2="419.5"/>
+	<line fill="none" stroke="#191970" stroke-miterlimit="10" x1="45.6" y1="309.2" x2="267.9" y2="309.2"/>
+	<line fill="none" stroke="#191970" stroke-miterlimit="10" x1="78.3" y1="387.3" x2="234.8" y2="230.8"/>
+	<line fill="none" stroke="#191970" stroke-miterlimit="10" x1="235.2" y1="387" x2="78.6" y2="230.4"/>
+	<line fill="#8B0000" stroke="#8B0000" stroke-width="2" stroke-miterlimit="10" x1="258.9" y1="352.9" x2="55" y2="265.2"/>
+	<line fill="#8B0000" stroke="#8B0000" stroke-width="2" stroke-miterlimit="10" x1="54.3" y1="352.9" x2="258.2" y2="265.2"/>
+	<line fill="#8B0000" stroke="#8B0000" stroke-width="2" stroke-miterlimit="10" x1="200.4" y1="410.3" x2="113.8" y2="208"/>
+	<line fill="#8B0000" stroke="#8B0000" stroke-width="2" stroke-miterlimit="10" x1="112.4" y1="410.6" x2="199.3" y2="208"/>
+	<ellipse fill="#191970" cx="156" cy="190" rx="7.1" ry="7.4"/>
+	<ellipse fill="#191970" cx="156" cy="429.5" rx="7.1" ry="7.4"/>
+	<ellipse fill="#191970" cx="278.5" cy="309.2" rx="7.1" ry="7.4"/>
+	<ellipse fill="#191970" cx="37.1" cy="310.3" rx="7.1" ry="7.4"/>
+	<ellipse fill="#191970" cx="243" cy="225.5" rx="7.1" ry="7.4"/>
+	<ellipse fill="#191970" cx="243" cy="393.3" rx="7.1" ry="7.4"/>
+	<ellipse fill="#191970" cx="73.7" cy="222.6" rx="7.1" ry="7.4"/>
+	<ellipse fill="#191970" cx="71.9" cy="394" rx="7.1" ry="7.4"/>
+	<ellipse cx="156.4" cy="309.2" rx="3.9" ry="3.9"/>
 </g>
 </svg>
