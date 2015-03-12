@@ -284,22 +284,28 @@ body {
 .panel-heading:hover {
     color: #666;
 }
+
 .panel-heading h2 {
     padding: .50em .25em;
 }
+
 .panel-content {
     padding: 0 15px 0 15px;
     margin-top: -999px;
 }
+
 .panel-content p {
     padding: 4px 0 6px 0;
 }
+
 .panel-content p:first-child {
     padding-top: 10px;
 }
+
 .panel-content p:last-child {
     padding-bottom: 15px;
 }
+
 .icon-close-open {
     width: 20px;
     height: 20px;
