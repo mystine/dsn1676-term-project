@@ -132,7 +132,7 @@ h1 {
   	top: 0;
   	width: 100%;
   	color: white;	
-  	font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  	font-family: 'Quicksand', sans-serif;
   	transform-origin: center center;
 	-webkit-animation: fadein-a 8s ease-in-out;
 	animation: fadein-a 8s ease-in-out;
