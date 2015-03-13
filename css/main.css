@@ -270,15 +270,16 @@ section {
 
 button {
     position: relative;
+    display: inline-block;
 }
 .panel {
     position: absolute;
     width: 250px;
     top: 50%;
-    background-color: yellow;
+    background-color: #8B0000;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: darkgoldenrod;
+    color: #F5F5F5;
     text-align: center;
     max-height: 0;
     overflow: hidden;
