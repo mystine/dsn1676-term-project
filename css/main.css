@@ -42,14 +42,14 @@ h1 {
 }
 .nav {
     margin: 0;
-    padding: 0 auto;
+    padding-left: 0;
     list-style-type: none; 
     background-color: #ccc;
     display: none;
     position: relative;
     right: 0;
     top: 100%;
-    width: 10em;
+    width: 100%;
 }
 
 .nav a {
@@ -80,7 +80,8 @@ h1 {
   width: 40px;
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 0;
+    z-index: 5;
 }
 
 .nav-open,
