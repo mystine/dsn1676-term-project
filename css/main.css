@@ -184,6 +184,7 @@ h1 {
 	line-height: 1.75;
 	text-align: center;
 	text-decoration: none;
+    z-index: 3;
 }
 
 .scroll:hover 
@@ -196,11 +197,12 @@ h1 {
 .wall-left {
 	width: 75%;
 	position: absolute;
-	left: 0;
+	left: -1%;
 	bottom:0;
 	opacity: 0;
 	-webkit-animation: slide-left 15s ease-in-out;
 	animation: slide-left 15s ease-in-out;
+    z-index: 2;
 }
 
 @-webkit-keyframes slide-left {
@@ -218,11 +220,12 @@ h1 {
 .wall-right {
 	width: 75%;
 	position: absolute;
-	right: 0;
+	right: -1%;
 	bottom: 0;
 	opacity: 0;
 	-webkit-animation: slide-right 15s ease-in-out;
 	animation: slide-right 15s ease-in-out;
+    z-index: 2;
 }
 
 @-webkit-keyframes slide-right {
@@ -240,6 +243,7 @@ h1 {
 .london {
     position: absolute;
     display: block;
+    z-index: 2;
 }
 
 .eye {
@@ -258,6 +262,10 @@ h1 {
   100% {
     transform:rotate(-360deg);
   }
+}
+
+.walls {
+    z-index: 5;
 }
 
 .first-cloud {
