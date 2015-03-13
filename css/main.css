@@ -261,3 +261,24 @@ body {
     100% { transform: translateX(-1500px); }
 }
 
+.panel {
+  width: 250px;
+  top: 50%;
+  background-color: yellow;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: darkgoldenrod;
+  text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.panel h2 {
+  margin: 0;
+  max-height: 0;
+  padding: 4rem 0;
+}
