@@ -40,6 +40,7 @@ h1 {
     letter-spacing: .125rem;
     color: #333;
 }
+
 .nav {
     margin: 0;
     padding-left: 0;
@@ -171,12 +172,13 @@ h1 {
     letter-spacing: 1rem;
 }
 
+/*
 .scroll 
 .scroll-text{
 	margin: .25em;
 	padding: 1em .75em;
 	position: absolute;
-	bottom: 2%;
+	bottom: 9%;
 	right: 2%;
     font-family: 'Quicksand', sans-serif;
 	background-color: white;
@@ -194,6 +196,8 @@ h1 {
 	color: white;
 	text-decoration: none;
 }
+
+*/
 
 .wall-left {
 	width: 75%;
