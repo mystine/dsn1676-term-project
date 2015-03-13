@@ -34,6 +34,12 @@ header {
     position: relative;
 }
 
+h1 {
+    font-weight: 600;
+    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    letter-spacing: .125rem;
+    color: #333;
+}
 .nav {
     margin: 0;
     padding: 0 auto;
@@ -126,7 +132,7 @@ header {
   	top: 0;
   	width: 100%;
   	color: white;	
-  	font-family: 'Quicksand', sans-serif;
+  	font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
   	transform-origin: center center;
 	-webkit-animation: fadein-a 8s ease-in-out;
 	animation: fadein-a 8s ease-in-out;
