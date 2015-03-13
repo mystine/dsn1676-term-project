@@ -270,8 +270,16 @@ section {
 
 button {
     position: relative;
-    display: inline-block;
+    color: #aaa;
+    padding: 1rem;
 }
+    
+button:hover {
+    border-color: #F00 #C30 #C30 #F00;
+}
+    
+}
+
 .panel {
     position: absolute;
     width: 250px;
@@ -295,6 +303,11 @@ button {
     padding: 4rem 0;
 }
 
+.btn-collapse-expand {
+    font-family: 'Quicksand', sans-serif;
+	letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
 .js-expand {
     max-height: 100%;
 }
