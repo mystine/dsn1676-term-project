@@ -27,6 +27,79 @@ body {
     margin: 0;
 }
 
+header {
+    background-color: #ccc;
+    padding: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.nav {
+    margin: 0;
+    padding: 0 auto;
+    list-style-type: none; 
+    background-color: #ccc;
+    display: none;
+    position: relative;
+    right: 0;
+    top: 100%;
+    width: 10em;
+}
+
+.nav a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav a:hover {
+    background-color: #333;
+    color: #F5F5F5;
+}
+
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+    display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #ccc;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+
 .banner {
     padding-top: 100%;
 	overflow: hidden;
