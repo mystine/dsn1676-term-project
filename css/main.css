@@ -275,9 +275,8 @@ button {
 }
     
 button:hover {
-    border-color: #F00 #C30 #C30 #F00;
-}
-    
+    color: #F5F5F5;
+    border: none;
 }
 
 .panel {
