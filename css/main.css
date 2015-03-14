@@ -378,7 +378,8 @@ section {
 button {
     position: relative;
     color: #aaa;
-    padding: 1rem;
+    padding: 0;
+    margin: 0;
 }
     
 button:hover {
