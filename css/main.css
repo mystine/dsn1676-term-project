@@ -110,7 +110,7 @@ h1 {
 
 
 .banner {
-    padding-top: 100%;
+    padding-top: 50%;
 	overflow: hidden;
 	position: relative;
 	background-color: #F5F5F5;
@@ -360,10 +360,10 @@ html- <div class="scroll micro bold">
 }
 
 section {
-    padding: 4em 1em;
+    padding: 0;
+    margin: 0;
     position: relative;
     background-color: #F5F5F5;
-    border-bottom: 3px double #ccc;
 }
 
 button {
