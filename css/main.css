@@ -58,6 +58,7 @@ h1 {
     padding: 0.5em;
     text-decoration: none;
     color: #333;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .nav a:hover {
@@ -389,7 +390,7 @@ button:hover {
 
 .slidingDiv {
     margin: 5%;
-    padding: 0 auto;
+    padding: 5%;
     display: none;
     background-color: #191970;
     color: #F5F5F5;
