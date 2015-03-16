@@ -401,6 +401,9 @@ button:hover {
     overflow: hidden;
 }
 
+p {
+    text-align: left;
+}
 ul {
     list-style-type: none;
     text-align: left;
