@@ -115,12 +115,13 @@ p {
   display: block;
 }
 
-
 .banner {
+    background-size: cover;
     padding-top: 50%;
 	overflow: hidden;
 	position: relative;
 	background-color: #F5F5F5;
+    background-size: cover;
 	-webkit-animation: sunset 8s linear;
 	animation: sunset 8s linear;
 }
@@ -140,6 +141,8 @@ p {
 .banner-title {
   	position: absolute;
   	top: 0;
+    padding: 0;
+    margin: 0;
   	width: 100%;
   	color: white;	
   	font-family: 'Quicksand', sans-serif;
@@ -165,7 +168,7 @@ p {
 .banner-title-text {
 	display: block;
 	margin:  auto;
-	padding-top: 20%;
+	padding-top: 10%;
   	color: #8B0000;	
   	font-family: 'Quicksand', sans-serif;
   	font-size: 1.75rem;
@@ -413,6 +416,7 @@ button:hover {
 	letter-spacing: 0.25rem;
     text-transform: uppercase;
 }
+
 .js-expand {
     max-height: 100%;
 }
@@ -420,3 +424,13 @@ button:hover {
 .slidingDiv {
     display: none;
 }
+
+@media only screen and (min-width: 25em){
+   
+}
+
+@media only screen and (min-width: 38em){
+  
+}
+
+@media only screen and (min-width: 60em){
