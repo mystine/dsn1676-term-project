@@ -41,13 +41,6 @@ h1 {
     color: #333;
 }
 
-p {
-    color: #333;
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-    line-height: 20px;
-    padding: 5%;
-}
-
 .nav {
     margin: 0;
     padding-left: 0;
@@ -373,7 +366,7 @@ section {
     position: relative;
     background: none;
     width: 100%;
-    padding: .75rem;
+    padding: 0 auto;
     margin: 0;
     text-align: center;
 }
@@ -395,8 +388,8 @@ button:hover {
 
 
 .slidingDiv {
-    margin: 0;
-    padding: 0;
+    margin: 5%;
+    padding: 0 auto;
     display: none;
     background-color: #191970;
     color: #F5F5F5;
@@ -404,11 +397,16 @@ button:hover {
     overflow: hidden;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
 }
 
 ul {
     list-style-type: none;
     text-align: left;
+}
+
+li:hover {
+    list-style-type: square;
 }
 
 @media only screen and (min-width: 25em){
