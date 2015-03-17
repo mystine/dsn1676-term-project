@@ -35,7 +35,7 @@ header {
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 400;
     font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
     letter-spacing: .125rem;
     color: #333;
@@ -367,7 +367,7 @@ section {
     position: relative;
     background: none;
     width: 100%;
-    padding: 0 auto;
+    padding-top: 5%;
     margin: 0;
     text-align: center;
 }
@@ -387,7 +387,6 @@ button:hover {
     border: none;
 }
 
-
 .slidingDiv {
     margin: 5%;
     padding: 5%;
@@ -404,6 +403,7 @@ button:hover {
 p {
     text-align: left;
 }
+
 ul {
     list-style-type: none;
     text-align: left;
