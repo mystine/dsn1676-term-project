@@ -6,4 +6,11 @@ $(document).ready(function(){
         $(this).next('.slidingDiv').slideToggle();
          return false;
     });
-});
+})
+
+var $btnNav = $('.btn-nav');
+var $nav =$('.nav');
+
+$btnNav.on('click',function(){
+	$nav.toggleClass('js-btn-nav');
+})

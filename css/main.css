@@ -34,6 +34,10 @@ header {
     position: relative;
 }
 
+.masthead {
+    overflow: hidden;
+}
+
 h1 {
     font-weight: 400;
     font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
@@ -66,16 +70,10 @@ h1 {
     color: #F5F5F5;
 }
 
-.nav-check {
-    position: absolute;
-    top: -3em;
-}
-
-.nav-check:checked ~ .nav {
-    display: block;
-}
-
-.nav-label {
+.btn-nav {
+	display: block;
+	float: right;
+	border: none;
     cursor: pointer;
     font-size: 1.25rem;
     display: inline-block;
@@ -84,6 +82,19 @@ h1 {
     right: 0;
     top: 0;
     z-index: 5;
+}
+
+.js-btn-nav {
+	display: block;
+}
+
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+    display: block;
 }
 
 .nav-open,
