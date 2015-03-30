@@ -71,7 +71,6 @@ h1 {
     background-color: lightgrey;
 }
 
-
 .nav {
     margin: 0;
     padding-left: 0;
@@ -367,6 +366,22 @@ h1 {
 @keyframes fourth-cloud {
     0% { transform: translateX(0px); }
     100% { transform: translateX(-1500px); }
+}
+
+.history-btn {
+    padding: 5%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.learn-history {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.learn-history:hover {
+    color: #8B0000;
 }
 
 section {
