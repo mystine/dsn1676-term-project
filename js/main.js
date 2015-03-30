@@ -16,5 +16,5 @@ $btnNav.on('click',function(){
 })
 
 $('.nav').localScroll();
-$('.top').localScroll();
+$('.back').localScroll();
 $('.history').localScroll();
