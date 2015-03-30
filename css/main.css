@@ -408,6 +408,8 @@ button:hover {
 
 p {
     text-align: left;
+    padding: 5%;
+    line-height: 20px;
 }
 
 ul {
