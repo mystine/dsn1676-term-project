@@ -421,6 +421,19 @@ li:hover {
     list-style-type: square;
 }
 
+.top {
+	width: 20%;
+	position: absolute;
+	margin: 1px;
+	text-decoration: none;
+	border: none;
+}
+
+.back {
+	float: right;
+	display:block;
+}	
+
 @media only screen and (min-width: 25em){
    
 }
