@@ -14,3 +14,7 @@ var $nav =$('.nav');
 $btnNav.on('click',function(){
 	$nav.toggleClass('js-btn-nav');
 })
+
+$('.nav').localScroll();
+$('.button').localScroll();
+$('.history').localScroll();
