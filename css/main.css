@@ -442,7 +442,7 @@ li:hover {
 .bus {
     width: 200px;
     -webkit-animation: bus 200s linear infinite;
-    animation: first-cloud 200s linear infinite;
+    animation: bus 200s linear infinite;
 }
 
 @-webkit-keyframes bus {
@@ -455,6 +455,21 @@ li:hover {
     100% { transform: translateX(-1500px); }
 }
 
+.second-bus {
+    width: 200px;
+    -webkit-animation: second-bus 400s linear infinite;
+    animation: third-cloud 400s linear infinite;
+}
+
+@-webkit-keyframes second-bus {
+    0% { -webkit-transform: translateX(0); }
+    100% { -webkit-transform: translateX(-1500px); }
+}
+
+@keyframes second-bus {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-1500px); }
+}
 @media only screen and (min-width: 25em){
    
 }
