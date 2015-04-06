@@ -441,8 +441,8 @@ li:hover {
 
 .bus {
     width: 100px;
-    -webkit-animation: bus 200s linear infinite;
-    animation: bus 200s linear infinite;
+    -webkit-animation: bus 300s linear infinite;
+    animation: bus 300s linear infinite;
 }
 
 @-webkit-keyframes bus {
@@ -457,33 +457,33 @@ li:hover {
 
 .second-bus {
     width: 100px;
-    -webkit-animation: second-bus 400s linear infinite;
-    animation: third-cloud 400s linear infinite;
+    -webkit-animation: second-bus 300s linear infinite;
+    animation: third-cloud 300s linear infinite;
 }
 
 @-webkit-keyframes second-bus {
-    0% { -webkit-transform: translateX(0); }
+    0% { -webkit-transform: translateX(400px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
 @keyframes second-bus {
-    0% { transform: translateX(0); }
+    0% { transform: translateX(400px); }
     100% { transform: translateX(-1500px); }
 }
 
 .third-bus {
     width: 100px;
-    -webkit-animation: third-bus 400s linear infinite;
-    animation: third-bus 400s linear infinite;
+    -webkit-animation: third-bus 300s linear infinite;
+    animation: third-bus 300s linear infinite;
 }
 
 @-webkit-keyframes third-bus {
-    0% { -webkit-transform: translateX(0); }
+    0% { -webkit-transform: translateX(500px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
 @keyframes third-bus {
-    0% { transform: translateX(0); }
+    0% { transform: translateX(500px); }
     100% { transform: translateX(-1500px); }
 }
 
@@ -494,18 +494,14 @@ li:hover {
 }
 
 @-webkit-keyframes fourth-bus {
-    0% { -webkit-transform: translateX(0px); }
+    0% { -webkit-transform: translateX(600px); }s
     100% { -webkit-transform: translateX(-1500px); }
 }
 
 @keyframes fourth-bus {
-    0% { transform: translateX(0px); }
+    0% { transform: translateX(600px); }
     100% { transform: translateX(-1500px); }
 }
-
-
-
-
 
 @media only screen and (min-width: 25em){
    
