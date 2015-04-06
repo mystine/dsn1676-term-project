@@ -487,22 +487,6 @@ li:hover {
     100% { transform: translateX(-1500px); }
 }
 
-.fourth-bus {
-    width: 100px;
-    -webkit-animation: fourth-bus 300s linear infinite;
-    animation: fourth-bus 300s linear infinite;
-}
-
-@-webkit-keyframes fourth-bus {
-    0% { -webkit-transform: translateX(500px); }s
-    100% { -webkit-transform: translateX(-1500px); }
-}
-
-@keyframes fourth-bus {
-    0% { transform: translateX(500px); }
-    100% { transform: translateX(-1500px); }
-}
-
 @media only screen and (min-width: 25em){
    
 }
