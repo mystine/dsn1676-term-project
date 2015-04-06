@@ -440,7 +440,7 @@ li:hover {
 }	
 
 .bus {
-    width: 200px;
+    width: 100px;
     -webkit-animation: bus 200s linear infinite;
     animation: bus 200s linear infinite;
 }
@@ -456,7 +456,7 @@ li:hover {
 }
 
 .second-bus {
-    width: 200px;
+    width: 100px;
     -webkit-animation: second-bus 400s linear infinite;
     animation: third-cloud 400s linear infinite;
 }
@@ -470,6 +470,43 @@ li:hover {
     0% { transform: translateX(0); }
     100% { transform: translateX(-1500px); }
 }
+
+.third-bus {
+    width: 100px;
+    -webkit-animation: third-bus 400s linear infinite;
+    animation: third-bus 400s linear infinite;
+}
+
+@-webkit-keyframes third-bus {
+    0% { -webkit-transform: translateX(0); }
+    100% { -webkit-transform: translateX(-1500px); }
+}
+
+@keyframes third-bus {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-1500px); }
+}
+
+.fourth-bus {
+    width: 100px;
+    -webkit-animation: fourth-bus 300s linear infinite;
+    animation: fourth-bus 300s linear infinite;
+}
+
+@-webkit-keyframes fourth-bus {
+    0% { -webkit-transform: translateX(0px); }
+    100% { -webkit-transform: translateX(-1500px); }
+}
+
+@keyframes fourth-bus {
+    0% { transform: translateX(0px); }
+    100% { transform: translateX(-1500px); }
+}
+
+
+
+
+
 @media only screen and (min-width: 25em){
    
 }
