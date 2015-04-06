@@ -446,12 +446,12 @@ li:hover {
 }
 
 @-webkit-keyframes bus {
-    0% { -webkit-transform: translateX(300px); }
+    0% { -webkit-transform: translateX(200px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
 @keyframes bus {
-    0% { transform: translateX(300px); }
+    0% { transform: translateX(200px); }
     100% { transform: translateX(-1500px); }
 }
 
@@ -462,12 +462,12 @@ li:hover {
 }
 
 @-webkit-keyframes second-bus {
-    0% { -webkit-transform: translateX(400px); }
+    0% { -webkit-transform: translateX(300px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
 @keyframes second-bus {
-    0% { transform: translateX(400px); }
+    0% { transform: translateX(300px); }
     100% { transform: translateX(-1500px); }
 }
 
@@ -478,12 +478,12 @@ li:hover {
 }
 
 @-webkit-keyframes third-bus {
-    0% { -webkit-transform: translateX(500px); }
+    0% { -webkit-transform: translateX(400px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
 @keyframes third-bus {
-    0% { transform: translateX(500px); }
+    0% { transform: translateX(400px); }
     100% { transform: translateX(-1500px); }
 }
 
@@ -494,12 +494,12 @@ li:hover {
 }
 
 @-webkit-keyframes fourth-bus {
-    0% { -webkit-transform: translateX(600px); }s
+    0% { -webkit-transform: translateX(500px); }s
     100% { -webkit-transform: translateX(-1500px); }
 }
 
 @keyframes fourth-bus {
-    0% { transform: translateX(600px); }
+    0% { transform: translateX(500px); }
     100% { transform: translateX(-1500px); }
 }
 
