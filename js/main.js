@@ -1,5 +1,6 @@
 var $document = $('.slidingDiv');
 var $show_hide = $('.show_hide');
+var $btnTrigger = $('.btn-trigger');
 
 $(document).ready(function(){
     $('.show_hide').click(function(){
@@ -18,3 +19,5 @@ $btnNav.on('click',function(){
 $('.nav').localScroll();
 $('.back').localScroll();
 $('.history').localScroll();
+
+
