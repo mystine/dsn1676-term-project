@@ -1,6 +1,5 @@
 var $document = $('.slidingDiv');
 var $show_hide = $('.show_hide');
-var $bus = $('.bus');
 
 $(document).ready(function(){
     $('.show_hide').click(function(){
@@ -20,6 +19,13 @@ $('.nav').localScroll();
 $('.back').localScroll();
 $('.history').localScroll();
 
-$bus.waypoint (function () {
-  $bus.toggleClass('js-active');
-}, {offset: '50%'});
+var $bus = $('.banner-bottom');
+
+$bus.waypoint(function (direction) {
+	if (direction == 'down') {
+		$bus.addClass('js-active');
+	}
+	else {
+		$bus.removeClass('js-active');
+	}
+}, { offset: '85%' } );
