@@ -439,7 +439,7 @@ li:hover {
     padding: 5%;
 }	
 
-.bus {
+.js-animate .bus {
     width: 100px;
     -webkit-animation: bus 300s linear infinite;
     animation: bus 300s linear infinite;

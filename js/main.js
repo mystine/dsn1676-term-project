@@ -22,5 +22,5 @@ $('.back').localScroll();
 $('.history').localScroll();
 
 $btnTrigger.on('click', function () {
-    $word.addClass('js-animate')
+    $bus.addClass('js-animate')
 });
