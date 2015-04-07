@@ -488,7 +488,17 @@ li:hover {
 }
 
 @media only screen and (min-width: 25em){
-   
+     .bus {
+        width: 150px;
+    } 
+    
+    .second-bus {
+        width: 150px;
+    }
+    
+    .third-bus {
+        width: 150px;
+    }
 }
 
 @media only screen and (min-width: 38em){
@@ -503,7 +513,15 @@ li:hover {
     }
 
     .bus {
-        width: 300px;
+        width: 200px;
+    }
+    
+    .second-bus {
+        width: 200px;
+    }
+    
+    .third-bus {
+        width: 200px;
     }
     
 @media only screen and (min-width: 60em){
@@ -515,4 +533,17 @@ li:hover {
     
     h1 {
         padding: 2%;
+    }
+        
+     .bus {
+        width: 200px;
+    }
+    
+    .second-bus {
+        width: 200px;
+    }
+    
+    .third-bus {
+        width: 200px;
+    }
 }
