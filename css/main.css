@@ -502,6 +502,10 @@ li:hover {
         padding: 5%;      
     }
 
+    .bus {
+        width: 300px;
+    }
+    
 @media only screen and (min-width: 60em){
     
     .banner-title-text {
