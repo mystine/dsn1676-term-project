@@ -1,6 +1,7 @@
 var $document = $('.slidingDiv');
 var $show_hide = $('.show_hide');
 var $btnTrigger = $('.btn-trigger');
+var $bus = $('.bus');
 
 $(document).ready(function(){
     $('.show_hide').click(function(){
@@ -20,4 +21,6 @@ $('.nav').localScroll();
 $('.back').localScroll();
 $('.history').localScroll();
 
-
+$btnTrigger.on('click', function () {
+    $word.addClass('js-animate')
+});
