@@ -455,7 +455,7 @@ li:hover {
     100% { transform: translateX(-1500px); }
 }
 
-.second-bus {
+js-animate .second-bus {
     width: 100px;
     -webkit-animation: second-bus 300s linear infinite;
     animation: third-cloud 300s linear infinite;
@@ -471,7 +471,7 @@ li:hover {
     100% { transform: translateX(-1500px); }
 }
 
-.third-bus {
+js-animate .third-bus {
     width: 100px;
     -webkit-animation: third-bus 300s linear infinite;
     animation: third-bus 300s linear infinite;
