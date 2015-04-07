@@ -455,34 +455,34 @@ li:hover {
     100% { transform: translateX(-1500px); }
 }
 
-js-active .second-bus {
+.js-active .bus {
     width: 100px;
-    -webkit-animation: second-bus 300s linear infinite;
-    animation: third-cloud 300s linear infinite;
+    -webkit-animation: bus 300s linear infinite;
+    animation: bus 300s linear infinite;
 }
 
-@-webkit-keyframes second-bus {
+@-webkit-keyframes bus {
     0% { -webkit-transform: translateX(300px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
-@keyframes second-bus {
+@keyframes bus {
     0% { transform: translateX(300px); }
     100% { transform: translateX(-1500px); }
 }
 
-js-active .third-bus {
+.js-active .bus {
     width: 100px;
-    -webkit-animation: third-bus 300s linear infinite;
-    animation: third-bus 300s linear infinite;
+    -webkit-animation: bus 300s linear infinite;
+    animation: bus 300s linear infinite;
 }
 
-@-webkit-keyframes third-bus {
+@-webkit-keyframes bus {
     0% { -webkit-transform: translateX(400px); }
     100% { -webkit-transform: translateX(-1500px); }
 }
 
-@keyframes third-bus {
+@keyframes bus {
     0% { transform: translateX(400px); }
     100% { transform: translateX(-1500px); }
 }
@@ -491,14 +491,6 @@ js-active .third-bus {
      .bus {
         width: 150px;
     } 
-    
-    .second-bus {
-        width: 150px;
-    }
-    
-    .third-bus {
-        width: 150px;
-    }
 }
 
 @media only screen and (min-width: 38em){
@@ -516,14 +508,6 @@ js-active .third-bus {
         width: 200px;
     }
     
-    .second-bus {
-        width: 200px;
-    }
-    
-    .third-bus {
-        width: 200px;
-    }
-    
 }
     
 @media only screen and (min-width: 60em){
@@ -538,14 +522,6 @@ js-active .third-bus {
     }
         
      .bus {
-        width: 200px;
-    }
-    
-    .second-bus {
-        width: 200px;
-    }
-    
-    .third-bus {
         width: 200px;
     }
 }
