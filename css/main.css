@@ -59,6 +59,13 @@ header {
     top: 0;
 }
 
+
+.logo {
+    width: 15%;
+    float: left;
+    margin: 5px;
+}
+
 h1 {
     font-weight: 400;
     font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
