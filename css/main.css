@@ -14,7 +14,7 @@
 
 html {
         -moz-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%; 
         -webkit-text-size-adjust: 100%;
         text-size-adjust: 100%;
 }
@@ -518,6 +518,10 @@ li:hover {
     .logo {
         padding-bottom: 5px;
     }
+    
+    .banner {
+        padding-top: 20%;
+    }
 }
     
 @media only screen and (min-width: 60em){
@@ -526,16 +530,16 @@ li:hover {
 	padding-top: 15%;
   	font-size: 3.75rem;
     }
-    
-    h1 {
-        padding: 2%;
-    }
-        
+  
      .bus {
         width: 200px;
     }
     
     .logo {
         width: 10%;
+    }
+    
+    .banner {
+        padding-top: 20%;
     }
 }
