@@ -79,78 +79,39 @@ h1 {
 }
 
 .nav {
-    margin: 0;
-    padding-left: 0;
-    list-style-type: none; 
-    background-color: #ccc;
-    display: none;
-    position: relative;
-    right: 0;
-    top: 100%;
-    width: 100%;
+	margin: 0;
+	position: absolute;
+	padding: 10px;
+	display: none;
+	overflow: hidden;
+	top: 55px;
+	right: 45px;
+	z-index: 1000;
 }
 
-.nav a {
-    display: block;
-    padding: 0.5em;
-    text-decoration: none;
-    color: #333;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.nav a:hover {
-    background-color: #333;
-    color: #F5F5F5;
+.nav li {
+	display: block;
+	color: #fff;
 }
 
 .btn-nav {
+	position: absolute;
 	display: block;
 	float: right;
+	clear: right;
+	right: 1em;
 	border: none;
-    cursor: pointer;
-    font-size: 1.25rem;
-    display: inline-block;
-    width: 40px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 5;
+	margin-top: 10px;
+    background-color: #ccc;
+}
+
+.nav-icon {
+	width:30px;
+	height:30px;
 }
 
 .js-btn-nav {
-	display: block;
-}
-
-.nav-check {
-    position: absolute;
-    top: -3em;
-}
-
-.nav-check:checked ~ .nav {
-    display: block;
-}
-
-.nav-open,
-.nav-close {
-    display: block;
-    margin-top: 15px;
-    margin-right: 10px;
-}
-
-.nav-check:checked ~ .nav-label {
-  background-color: #ccc;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
+	display:block;
 }
 
 .banner {
