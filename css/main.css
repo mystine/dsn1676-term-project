@@ -498,8 +498,8 @@ li:hover {
 @media only screen and (min-width: 38em){
     
     .banner-title-text {
-	padding-top: 5%;
-  	font-size: 2.75rem;
+        padding-top: 5%;
+        font-size: 2.75rem;
     }
     
     h1 {
@@ -522,8 +522,8 @@ li:hover {
 @media only screen and (min-width: 60em){
     
     .banner-title-text {
-	padding-top: 15%;
-  	font-size: 3.75rem;
+        padding-top: 15%;
+        font-size: 3.75rem;
     }
   
      .bus {
