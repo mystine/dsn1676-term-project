@@ -514,6 +514,10 @@ li:hover {
         padding: 15px;
         font-size: 15px;
     }
+    
+    section {
+        margin-left: 40%;
+    }
 }
     
 @media only screen and (min-width: 60em){
