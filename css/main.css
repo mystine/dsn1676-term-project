@@ -507,6 +507,13 @@ li:hover {
     h1 {
         padding: 0;
     }
+    
+    .history-btn {
+        margin: 4%;
+        width: 20%;
+        padding: 15px;
+        font-size: 15px;
+    }
 }
     
 @media only screen and (min-width: 60em){
