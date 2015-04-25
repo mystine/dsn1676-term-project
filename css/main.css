@@ -166,7 +166,8 @@ h1 {
   	color: white;	
   	font-family: 'Quicksand', sans-serif;
   	transform-origin: center center;
-	-webkit-animation: fadein-a 8s ease-in-out;
+	
+    -webkit-animation: fadein-a 8s ease-in-out;
 	animation: fadein-a 8s ease-in-out;
 }
 
@@ -208,7 +209,8 @@ h1 {
 	left: -1%;
 	bottom:0;
 	opacity: 0;
-	-webkit-animation: slide-left 15s ease-in-out;
+	
+    -webkit-animation: slide-left 15s ease-in-out;
 	animation: slide-left 15s ease-in-out;
     z-index: 2;
 }
@@ -495,6 +497,15 @@ li:hover {
     
     .banner {
         padding-top: 20%;
+    }
+    
+    p {
+        width: 30%; 
+        float: left;
+    }
+    
+    h1 {
+        padding: 0;
     }
 }
     
