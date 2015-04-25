@@ -155,20 +155,6 @@ h1 {
 	position: relative;
 	background-color: #F5F5F5;
     background-size: cover;
-	-webkit-animation: sunset 8s linear;
-	animation: sunset 8s linear;
-}
-
-@-webkit-keyframes sunset {
-	0% 		{background-color: white;}
-	85%  	{background-color: #F5F5F5;}
-	100% 	{background-color: #F5F5F5;}
-}
-
-@keyframes sunset {
-	0% 		{background-color: white;}
-	85%  	{background-color: #F5F5F5;}
-	100% 	{background-color: #F5F5F5;}
 }
 
 .banner-title {
